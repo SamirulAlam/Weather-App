@@ -1,0 +1,1 @@
+This is a single app using an weather API called https://openweathermap.org/. Here you have to search by a city and will get a bunch of information like tempearrue,min temp,max temp etc. All datas are fetching from the API. So clone it and add weather infomations as many as you like.
