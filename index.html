@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="hero-section d-flex justify-content-center align-items-center flex-column">
+        <div class="hero-section__title-container">
+            <h1 class="text-primary">Weather</h1>
+        </div>
+        <div class="hero-section__input-container">
+            <input type="text" placeholder="Search city" id="city-input">
+        </div>
+        <div class="hero-section__button-container mt-3">
+            <button class="btn-primary" onclick="searchCity()">Search</button>
+        </div>
+        <div class="hero-section__weather-container" id="weather-output">
+            <div class="weather-container__city-container text-center mt-3">
+                <h4 id="city-name">---</h4>
+            </div>
+            <div class="weather-container__type-container text-center">
+                <h1 id="weather-type">---</h1>
+            </div>
+            <div class="weather-container__list-container">
+                <ul>
+                    <li>Temp <span id="temp">---</span> degree</li>
+                    <li>Min <span id="min-temp">---</span> degree</li>
+                    <li>Max <span id="max-temp">---</span> degree</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
